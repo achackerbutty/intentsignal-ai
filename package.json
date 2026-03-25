@@ -1,0 +1,25 @@
+{
+  "name": "intentsignal-ai",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.0.0",
+    "@prisma/client": "^5.0.0",
+    "next": "latest",
+    "openai": "^4.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "twilio": "^4.0.0",
+    "@sendgrid/mail": "^7.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.0.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
